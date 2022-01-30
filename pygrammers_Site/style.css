@@ -1,0 +1,56 @@
+header{
+    min-height: 90px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+.logo{
+    width: 50%;
+}
+header>.row>.logo>img{
+    height: 60px;
+    
+}
+.nav{
+    width: 50%;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form1{
+    
+    border: black;
+    border-style: solid;
+    border-width: 1px;    
+}
+
+.heading{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.button1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.register{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputfield{
+    width: 22rem;  
+}
+.foot{
+    height: 4rem;
+    width: 100%;
+}
+.foot>img{
+    height: 3rem;
+}
